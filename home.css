@@ -7,7 +7,7 @@ img {
 }
 body {
     background-color: aqua;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 800px) {
         body {
           background-color: blanchedalmond;
         }
@@ -18,7 +18,8 @@ body {
     width: 1560px;
     background-size: auto;
     text-shadow: black;
-    background-color: wheat;
+    background-image: url(./baoback.jpg);
+    font-size: xx-large;
 }
 nav {
     margin: 0 auto;
