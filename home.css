@@ -7,6 +7,11 @@ img {
 }
 body {
     background-color: aqua;
+    @media only screen and (max-width: 600px) {
+        body {
+          background-color: blanchedalmond;
+        }
+      }
 }
 .navbar {
     height: 100px;
